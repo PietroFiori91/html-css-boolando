@@ -54,7 +54,7 @@ nav div img {
 /* SHOP-BOOLEANDO */
 
 main {
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 
 .container-main {
@@ -70,8 +70,8 @@ main {
 .box-product {
   max-width: 33%;
   width: 100%;
-  border: 5px solid black;
-  background-color: blue;
+  /* border: 5px solid black;
+  background-color: blue; */
   padding: 1rem 1rem;
 }
 
@@ -79,4 +79,25 @@ main div a img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.description {
+}
+
+/* FOOTER */
+
+.footer-bg {
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+}
+
+.container-footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+
+footer span {
+  padding-right: 0.8rem;
 }
