@@ -84,7 +84,7 @@ main div a img {
   object-fit: cover;
 }
 
-.description {
+/* .description {
 }
 
 .hoverimg {
@@ -93,10 +93,29 @@ main div a img {
 
 .hoverimg:hover {
   display: inline-block;
+} */
+
+.favourite-hover {
+  color: black;
+  position: absolute;
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 1rem;
+  top: 3rem;
 }
 
-.favourite {
-  color: black;
+.hover {
+  position: absolute;
+  display: none;
+}
+
+.favourite-hover:hover + .hover {
+  display: block;
+  color: red;
   position: absolute;
   background-color: white;
   width: 3rem;
