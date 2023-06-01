@@ -15,6 +15,7 @@ body {
   position: fixed;
   z-index: 1;
   background-color: rgb(255, 105, 0);
+  box-shadow: 0 0px 5px 0px rgb(120, 120, 120);
 }
 
 .container-nav {
@@ -65,6 +66,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 10rem;
 }
 
 .box-product {
@@ -73,6 +75,7 @@ main {
   /* border: 5px solid black;
   background-color: blue; */
   padding: 1rem 1rem;
+  position: relative;
 }
 
 main div a img {
@@ -83,6 +86,31 @@ main div a img {
 
 .description {
 }
+
+.hoverimg {
+  display: none;
+}
+
+.hoverimg:hover {
+  display: inline-block;
+}
+
+.favourite {
+  color: black;
+  position: absolute;
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 1rem;
+  top: 3rem;
+}
+
+/* .hearth2 {
+  right: 1rem;
+} */
 
 /* FOOTER */
 
